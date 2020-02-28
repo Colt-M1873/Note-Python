@@ -1,0 +1,112 @@
+https://github.com/Colt-M1873/Note-Python.git
+github repositiry
+
+
+print加format输出,{}括号内规定输出格式
+print后直接带参数输出 
+例：
+i=5
+print('the value is ',i)
+输出the value is 5
+print中指定结尾用end，如print('a',end=' ')为指定以空格结尾
+
+不使用分号
+
+同缩进级别称block（块）
+逻辑行以不同缩进确定分组
+不能任意开始一个新块
+不需要括号，通过block来进行逻辑分层
+
+Expressions = Operators + Operands
+
+In Python 'power' is expressed by  **
+3**4=3*3*3*3=81
+
+除为/
+整除为//
+整除结果向下取整，3.8取3，-1.1取-2
+
+求余%
+
+二进制：
+<<按位左移，缺位补0
+>>按位右移，缺位补0
+& 与
+|  或
+^ 异或（异则为1，同为0）
+~ 取反（特殊，可算十进制，x	的按位取反结果为-(x+1)，原理见负数的补码表示）
+
+
+python中比较运算结果不是0和1而是True和False
+老生常谈==是判断是否相等而=是赋值
+
+布尔运算
+not 布尔非
+and 与
+or 或
+
+break在python循环中的作用与在c中相同
+
+if 判断
+注意在每行判断语句后有一个冒号 : 表示引出对应执行的语句块
+if 
+elif
+else
+
+while循环
+同样需要冒号：
+注意python中while可带else，当循环条件为False时执行else
+
+for循环也可带else
+
+形参Parameters
+实参Arugments
+局部Local
+全局Global
+作用域Scope
+
+默认参数值，在定义函数时在参数名后加=和数值，默认参数值为常数，不可变
+只有位于末尾的参数才能赋默认值，无默认值的参数必须排在有默认值的参数之前
+例如：
+def	func(a,b=5)
+是有效的 	
+def	func(a=5,	b)
+是无效的。
+
+
+位置参数与关键字参数（重点）与C语言差异较大，c语言只按位置分布参数
+有位置参数时，位置参数必须在关键字参数的前面，但关键字参数之间不存在先后顺序的，该位置顺序与默认参数值位置中的带等号参数顺序相同
+
+可变参数
+
+
+//表示整数除法，结果向上取整 /表示浮点数除法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
