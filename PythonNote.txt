@@ -95,7 +95,26 @@ divmod()用于计算除余结果 a,b=divmod(100,9) 则a=11 b=1
 
 
 
+str()转成字符串
+eval()字符串去掉双引号转成别的
+ord()该字符的UNICODE编码
+chr()该编码的字符
 
+str.strip(chars) 字符串两侧去掉chars
+str.split(a) 以a为界限，将字符串中的每一个a删去，并将字符串分割成列表
+str.count(a)返回字符串中a出现的次数
+str.replace(old,new)字符串中所有old替换为new
+
+type(x)对x进行类型判断
+
+if普通写法
+if 条件 :
+    语句1
+else：
+    语句2
+
+if二分支简洁写法，写在同一行：
+表达式1  if  条件  else  表达式2
 
 
 
